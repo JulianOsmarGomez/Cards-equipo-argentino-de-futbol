@@ -52,6 +52,27 @@ header{
     width: 100%;
     height: 100%;
 }
+aside{
+    height: 30px;
+    background-color: black;
+    width: 100%;
+}
+.menu__ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-top: 7px;
+    list-style: none;
+    font-size: 1.3rem;
+}
+.menu__ul a{
+    text-decoration: none;
+}
+.menu__ul a:visited{
+    color: #fff;
+}
+.menu__ul a:hover{
+    border-bottom: 2px solid #BFB373;}
 
 .contenedor-principal{
     min-width: 300px;
@@ -60,6 +81,12 @@ header{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;   
+    padding-top: 20px;
+}
+.dt{
+    width: 100%;
+    height: 100%;
+    margin:1px auto;
 }
 .arquero{
     width: 100%;
@@ -89,7 +116,7 @@ header{
 }
 .card{
     width: 200px;
-    height: 330px;
+    height: 340px;
     display: flex;
     flex-direction: column;
     background-color: inherit;
@@ -157,136 +184,23 @@ header{
 }
 .nombre{
     width: 200px;
-    height: 66px;
-    background-color: black;
+    height: 77px;
+    background-color:black;
     color: azure;
-    margin-top: 2px;
+    position: relative;
 }
 .nombre h3{
     font-family: 'Barlow Condensed', sans-serif;
-    letter-spacing: 3px;
-    font-size: 2rem;
-    margin-bottom: 2px;
-    height: 1px;
+    font-size: 1.7rem;
+    max-height: 30px;
 }
 .nombre p{
     font-size: 1.5rem;
-    margin-top: 20px;
+    padding-top: 0;
+    
+
+   
 }
 .text-center{
     text-align: center;
-    padding-top: 5px;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.contenedor-principal{
- width: 100%;
- height: 100%;
- background-image: linear-gradient(to top, #BFB373 20%, #164475 80%);
-}
-.arquero{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.defensa{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    flex-wrap: wrap;
-}
-.mediocampo{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    flex-wrap: wrap;
-}
-.delantera{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-    padding-bottom: 50px;
-    flex-wrap: wrap;
-}
-.card{
-    min-width: 200px;
-    height: 330px;
-    border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
-    -webkit-box-shadow: 0px 2px 35px 8px rgba(235,179,68,1);
-    -moz-box-shadow: 0px 2px 35px 8px rgba(235,179,68,1);
-    box-shadow: 0px 2px 35px 8px rgba(235,179,68,1);  
-    overflow: hidden;
-    background-image: linear-gradient(180deg, #B0BAD3 0%, #164475 100%);
-}
-.card-img{
-    height: 250px;
-    width: 100%;
-}
-.card:hover{
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transition: all 1s;
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -ms-transition: all 1s;
-    -o-transition: all 1s;
-}
-.box-player{
-    width: 70%;
-    height: 250px;
-    display: inline;
-    float: left;
-}
-.box-player img{
-    width: 100%;
-    height: 100%;
-}
-.box-logo{
-    width: 30%;
-    height: 250px;
-    float: right;
-    margin-top: 10px;
-    display: inline;
-}
-.box-logo img{
-    width: 100%;
-    height: 30%;
-}
-
-.nombre{
-    color: #fff;
-    text-align: center;
-    height: 50px;  
-    font-size: 1.6rem; 
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-} */
